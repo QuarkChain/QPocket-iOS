@@ -1,12 +1,31 @@
 # PocketCore
 PocketCore is the main code of QPocket with the logic part of the UI removed. Based on the Realm database, that allows you to manage your wallets and sign transactions in BTC, ETH, TRX and QKC chains simultaneously, Notes: "phrase" also known as "mnemonic" in the code.
 
-## Installation
-Download this repository, cd into the download path using terminal, then
+## Getting Started
+1. Download the Xcode 11 release.
+2. Clone this repository.
+3. Run `pod install` to install tools and dependencies.
 
-```
-pod install
-```
+## Features
+
+With the QPocket Wallet you can send and receive QuarkChain,Ethereum,Tron,Bitcoins using your mobile phone.
+
+ - HD enabled - manage multiple accounts and never reuse addresses ([Bip32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)/[Bip44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) compatible)
+ - Masterseed based - make one backup and be safe for ever. ([Bip39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki))
+ - 100% control over your private keys, they never leave your device unless you export them
+ - Watch-only addresses (single or xPub) & private key import for secure cold-storage integration
+ - Secure your wallet with a PIN
+
+Please note: while we make sure to adhere to the highest standards of software craftsmanship we can not exclude that the software contains bugs. Please make sure you have backups of your private keys and do not use this for more than you are willing to lose.
+
+More features:
+
+ - Sources [available for review](https://github.com/QuarkChain/QPocket-iOS)
+ - Multiple HD accounts, private keys,keystore accounts or external xPub accounts
+ - HD Wallet supports creating unlimited sub wallets
+ - Transaction history with detailed information and local stored comments
+ - Export private-, keystore- or mnemonic
+ - Sign Messages using your private keys
 
 ## Some API examples
 ### Create a new HD Wallet(QKC, BTC, TRX, ETH)
@@ -57,23 +76,4 @@ GethKeyStore *keystore = [QWWalletManager defaultManager].keystore.gethKeystore;
     } failure:^(NSError *error) {
 
     }];
-```
-
-
-## Copyright and License
-
-```
-  Copyright 2019 QuarkChain PTE. LTD.
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
 ```
