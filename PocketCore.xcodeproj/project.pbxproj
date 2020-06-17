@@ -1,0 +1,1272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40BF3D222498B9820057C854 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3D212498B9820057C854 /* AppDelegate.m */; };
+		40BF3D252498B9820057C854 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3D242498B9820057C854 /* SceneDelegate.m */; };
+		40BF3D282498B9820057C854 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3D272498B9820057C854 /* ViewController.m */; };
+		40BF3D2B2498B9820057C854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BF3D292498B9820057C854 /* Main.storyboard */; };
+		40BF3D2D2498B9840057C854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BF3D2C2498B9840057C854 /* Assets.xcassets */; };
+		40BF3D302498B9840057C854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BF3D2E2498B9840057C854 /* LaunchScreen.storyboard */; };
+		40BF3D332498B9840057C854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3D322498B9840057C854 /* main.m */; };
+		40BF3D3D2498B9840057C854 /* PocketCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3D3C2498B9840057C854 /* PocketCoreTests.m */; };
+		40BF3EDE2498B9D50057C854 /* QWShard.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DC92498B9D40057C854 /* QWShard.m */; };
+		40BF3EE02498B9D50057C854 /* QWDatabaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DD02498B9D40057C854 /* QWDatabaseObject.m */; };
+		40BF3EE12498B9D50057C854 /* QWChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DD22498B9D40057C854 /* QWChain.m */; };
+		40BF3EE32498B9D50057C854 /* QWBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DD42498B9D40057C854 /* QWBalance.m */; };
+		40BF3EE42498B9D50057C854 /* QWDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DD72498B9D40057C854 /* QWDatabase.m */; };
+		40BF3EE62498B9D50057C854 /* QWAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DDB2498B9D40057C854 /* QWAccount.m */; };
+		40BF3EE72498B9D50057C854 /* QWToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DDC2498B9D40057C854 /* QWToken.m */; };
+		40BF3EE82498B9D50057C854 /* QWTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DDE2498B9D40057C854 /* QWTransaction.m */; };
+		40BF3EE92498B9D50057C854 /* QWWallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DE12498B9D40057C854 /* QWWallet.m */; };
+		40BF3EEA2498B9D50057C854 /* QWNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DE32498B9D40057C854 /* QWNetwork.m */; };
+		40BF3EEB2498B9D50057C854 /* TronInventoryItems.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DED2498B9D40057C854 /* TronInventoryItems.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		40BF3EEC2498B9D50057C854 /* Discover.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DEE2498B9D40057C854 /* Discover.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		40BF3EED2498B9D50057C854 /* Tron.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DEF2498B9D40057C854 /* Tron.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		40BF3EEE2498B9D50057C854 /* Contract.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DF02498B9D40057C854 /* Contract.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		40BF3EEF2498B9D50057C854 /* Api.pbrpc.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DF22498B9D40057C854 /* Api.pbrpc.m */; };
+		40BF3EF02498B9D50057C854 /* HTTP.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DF72498B9D40057C854 /* HTTP.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		40BF3EF12498B9D50057C854 /* Annotations.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DF82498B9D40057C854 /* Annotations.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		40BF3EF22498B9D50057C854 /* Descriptor.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DFB2498B9D40057C854 /* Descriptor.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		40BF3EF32498B9D50057C854 /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DFC2498B9D40057C854 /* Api.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		40BF3EF42498B9D50057C854 /* QWClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3DFE2498B9D40057C854 /* QWClient.m */; };
+		40BF3EF52498B9D50057C854 /* QWONEClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E032498B9D40057C854 /* QWONEClient.m */; };
+		40BF3EF62498B9D50057C854 /* QWBTCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E042498B9D40057C854 /* QWBTCClient.m */; };
+		40BF3EF72498B9D50057C854 /* QWQKCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E052498B9D40057C854 /* QWQKCClient.m */; };
+		40BF3EF82498B9D50057C854 /* QWETHClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E062498B9D40057C854 /* QWETHClient.m */; };
+		40BF3EF92498B9D50057C854 /* QWTRXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E082498B9D40057C854 /* QWTRXClient.m */; };
+		40BF3EFA2498B9D50057C854 /* QWDataStash.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E0B2498B9D40057C854 /* QWDataStash.m */; };
+		40BF3EFC2498B9D50057C854 /* QWError.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E0D2498B9D40057C854 /* QWError.m */; };
+		40BF3EFE2498B9D50057C854 /* QWKeystoreSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E142498B9D40057C854 /* QWKeystoreSwift.swift */; };
+		40BF3EFF2498B9D50057C854 /* BTCTransactionSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E172498B9D40057C854 /* BTCTransactionSigner.swift */; };
+		40BF3F002498B9D50057C854 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E192498B9D40057C854 /* Hash.swift */; };
+		40BF3F012498B9D50057C854 /* Scrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E1A2498B9D40057C854 /* Scrypt.swift */; };
+		40BF3F022498B9D50057C854 /* Encryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E1B2498B9D40057C854 /* Encryptor.swift */; };
+		40BF3F032498B9D50057C854 /* Secp256k1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E1C2498B9D40057C854 /* Secp256k1.swift */; };
+		40BF3F042498B9D50057C854 /* AES128.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E1D2498B9D40057C854 /* AES128.swift */; };
+		40BF3F052498B9D50057C854 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E1E2498B9D40057C854 /* PBKDF2.swift */; };
+		40BF3F062498B9D50057C854 /* Keccak256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E1F2498B9D40057C854 /* Keccak256.swift */; };
+		40BF3F072498B9D50057C854 /* Keystore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E202498B9D40057C854 /* Keystore.swift */; };
+		40BF3F082498B9D50057C854 /* PrivateKeyValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E212498B9D40057C854 /* PrivateKeyValidator.swift */; };
+		40BF3F092498B9D50057C854 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E222498B9D40057C854 /* Crypto.swift */; };
+		40BF3F0A2498B9D50057C854 /* BTCTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E232498B9D40057C854 /* BTCTransaction.swift */; };
+		40BF3F0B2498B9D50057C854 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E242498B9D40057C854 /* String+Extension.swift */; };
+		40BF3F0C2498B9D50057C854 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BF3E262498B9D40057C854 /* secp256k1.framework */; };
+		40BF3F0D2498B9D50057C854 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E272498B9D40057C854 /* Hex.swift */; };
+		40BF3F0E2498B9D50057C854 /* crypto_scrypt-hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E292498B9D40057C854 /* crypto_scrypt-hash.c */; };
+		40BF3F0F2498B9D50057C854 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 40BF3E2A2498B9D40057C854 /* LICENSE */; };
+		40BF3F102498B9D50057C854 /* slowequals.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E2B2498B9D40057C854 /* slowequals.c */; };
+		40BF3F112498B9D50057C854 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E2C2498B9D40057C854 /* Makefile */; };
+		40BF3F122498B9D50057C854 /* libscrypt.version in Resources */ = {isa = PBXBuildFile; fileRef = 40BF3E2D2498B9D40057C854 /* libscrypt.version */; };
+		40BF3F132498B9D50057C854 /* crypto-scrypt-saltgen.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E302498B9D40057C854 /* crypto-scrypt-saltgen.c */; };
+		40BF3F142498B9D50057C854 /* crypto_scrypt-hexconvert.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E312498B9D40057C854 /* crypto_scrypt-hexconvert.c */; };
+		40BF3F152498B9D50057C854 /* crypto-mcf.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E322498B9D40057C854 /* crypto-mcf.c */; };
+		40BF3F162498B9D50057C854 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 40BF3E352498B9D40057C854 /* README.md */; };
+		40BF3F172498B9D50057C854 /* crypto_scrypt-check.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E362498B9D40057C854 /* crypto_scrypt-check.c */; };
+		40BF3F182498B9D50057C854 /* b64.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E382498B9D40057C854 /* b64.c */; };
+		40BF3F192498B9D50057C854 /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E392498B9D40057C854 /* sha256.c */; };
+		40BF3F1A2498B9D50057C854 /* crypto_scrypt-nosse.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E3A2498B9D40057C854 /* crypto_scrypt-nosse.c */; };
+		40BF3F1B2498B9D50057C854 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E3C2498B9D40057C854 /* Data+Extension.swift */; };
+		40BF3F1C2498B9D50057C854 /* BTCKeystore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E3D2498B9D40057C854 /* BTCKeystore.swift */; };
+		40BF3F1D2498B9D50057C854 /* Wordlists.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40BF3E3E2498B9D40057C854 /* Wordlists.bundle */; };
+		40BF3F1E2498B9D50057C854 /* Base58String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E3F2498B9D40057C854 /* Base58String.swift */; };
+		40BF3F1F2498B9D50057C854 /* QWKeystore.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E402498B9D40057C854 /* QWKeystore.m */; };
+		40BF3F202498B9D50057C854 /* RLP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E422498B9D40057C854 /* RLP.swift */; };
+		40BF3F212498B9D50057C854 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E442498B9D40057C854 /* Address.swift */; };
+		40BF3F222498B9D50057C854 /* EthereumCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E462498B9D40057C854 /* EthereumCrypto.m */; };
+		40BF3F232498B9D50057C854 /* TransactionUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E472498B9D40057C854 /* TransactionUtils.swift */; };
+		40BF3F242498B9D50057C854 /* SmartContractDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E492498B9D40057C854 /* SmartContractDecoder.swift */; };
+		40BF3F252498B9D50057C854 /* GreeterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E4A2498B9D40057C854 /* GreeterEncoder.swift */; };
+		40BF3F262498B9D50057C854 /* ABIEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E4B2498B9D40057C854 /* ABIEncoder.swift */; };
+		40BF3F272498B9D50057C854 /* ABIDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E4C2498B9D40057C854 /* ABIDecoder.swift */; };
+		40BF3F282498B9D50057C854 /* ABIValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E4D2498B9D40057C854 /* ABIValue.swift */; };
+		40BF3F292498B9D50057C854 /* ABIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E4E2498B9D40057C854 /* ABIType.swift */; };
+		40BF3F2A2498B9D50057C854 /* ABIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E4F2498B9D40057C854 /* ABIError.swift */; };
+		40BF3F2B2498B9D50057C854 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E502498B9D40057C854 /* Function.swift */; };
+		40BF3F2C2498B9D50057C854 /* ERC20Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E512498B9D40057C854 /* ERC20Encoder.swift */; };
+		40BF3F2D2498B9D50057C854 /* QWWalletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E532498B9D40057C854 /* QWWalletManager.m */; };
+		40BF3F2E2498B9D50057C854 /* QWWalletManager+Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E552498B9D40057C854 /* QWWalletManager+Token.m */; };
+		40BF3F302498B9D50057C854 /* QWWalletManager+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E592498B9D40057C854 /* QWWalletManager+Private.m */; };
+		40BF3F312498B9D50057C854 /* QWWalletManager+Keystore.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E5C2498B9D40057C854 /* QWWalletManager+Keystore.m */; };
+		40BF3F322498B9D50057C854 /* QWWalletManager+Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E5E2498B9D40057C854 /* QWWalletManager+Account.m */; };
+		40BF3F352498B9D50057C854 /* NSString+QWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E632498B9D40057C854 /* NSString+QWExtension.m */; };
+		40BF3F372498B9D50057C854 /* NSString+JSONRPC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E652498B9D40057C854 /* NSString+JSONRPC.m */; };
+		40BF3F382498B9D50057C854 /* JKBigDecimal+QWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E6B2498B9D40057C854 /* JKBigDecimal+QWExtension.m */; };
+		40BF3F3A2498B9D50057C854 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E6E2498B9D40057C854 /* Data.swift */; };
+		40BF3F3B2498B9D50057C854 /* RLMArray+QWDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E6F2498B9D40057C854 /* RLMArray+QWDatabase.m */; };
+		40BF3F3C2498B9D50057C854 /* RLMResults+QWDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E712498B9D40057C854 /* RLMResults+QWDatabase.m */; };
+		40BF3F412498B9D50057C854 /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E7C2498B9D50057C854 /* NSData+Encryption.m */; };
+		40BF3F482498B9D50057C854 /* NSDate+QWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E902498B9D50057C854 /* NSDate+QWExtension.m */; };
+		40BF3F4C2498B9D50057C854 /* NSString+Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E962498B9D50057C854 /* NSString+Address.m */; };
+		40BF3F502498B9D50057C854 /* QWCheckParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3E9C2498B9D50057C854 /* QWCheckParams.m */; };
+		40BF3F532498B9D50057C854 /* NSString+QWHexBinaryConverting.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3EA12498B9D50057C854 /* NSString+QWHexBinaryConverting.m */; };
+		40BF3F572498B9D50057C854 /* NSString+balance.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3EA82498B9D50057C854 /* NSString+balance.m */; };
+		40BF3F582498B9D50057C854 /* NSData+QWHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF3EA92498B9D50057C854 /* NSData+QWHexString.m */; };
+		40BF3F5B2498B9E70057C854 /* CoreBitcoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BF3F5A2498B9E70057C854 /* CoreBitcoin.framework */; };
+		8CC7D3A072A5C8860C55922D /* Pods_PocketCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A93BFADD14910FEE697716 /* Pods_PocketCoreTests.framework */; };
+		A68156C5B69DDA86FFD9DD88 /* Pods_PocketCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5688FE9AC9537A73FD35EEB8 /* Pods_PocketCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40BF3D392498B9840057C854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40BF3D152498B9820057C854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BF3D1C2498B9820057C854;
+			remoteInfo = PocketCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40BF3D1D2498B9820057C854 /* PocketCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BF3D202498B9820057C854 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40BF3D212498B9820057C854 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40BF3D232498B9820057C854 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		40BF3D242498B9820057C854 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		40BF3D262498B9820057C854 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40BF3D272498B9820057C854 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40BF3D2A2498B9820057C854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40BF3D2C2498B9840057C854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40BF3D2F2498B9840057C854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40BF3D312498B9840057C854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BF3D322498B9840057C854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40BF3D382498B9840057C854 /* PocketCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BF3D3C2498B9840057C854 /* PocketCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketCoreTests.m; sourceTree = "<group>"; };
+		40BF3D3E2498B9840057C854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BF3DC72498B9D40057C854 /* QWDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWDatabase.h; sourceTree = "<group>"; };
+		40BF3DC92498B9D40057C854 /* QWShard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWShard.m; sourceTree = "<group>"; };
+		40BF3DCA2498B9D40057C854 /* QWBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWBalance.h; sourceTree = "<group>"; };
+		40BF3DCB2498B9D40057C854 /* QWTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWTransaction.h; sourceTree = "<group>"; };
+		40BF3DCD2498B9D40057C854 /* QWToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWToken.h; sourceTree = "<group>"; };
+		40BF3DCE2498B9D40057C854 /* QWAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWAccount.h; sourceTree = "<group>"; };
+		40BF3DD02498B9D40057C854 /* QWDatabaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWDatabaseObject.m; sourceTree = "<group>"; };
+		40BF3DD12498B9D40057C854 /* QWWallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWWallet.h; sourceTree = "<group>"; };
+		40BF3DD22498B9D40057C854 /* QWChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWChain.m; sourceTree = "<group>"; };
+		40BF3DD42498B9D40057C854 /* QWBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWBalance.m; sourceTree = "<group>"; };
+		40BF3DD52498B9D40057C854 /* QWShard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWShard.h; sourceTree = "<group>"; };
+		40BF3DD72498B9D40057C854 /* QWDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWDatabase.m; sourceTree = "<group>"; };
+		40BF3DD92498B9D40057C854 /* QWDatabaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWDatabaseObject.h; sourceTree = "<group>"; };
+		40BF3DDB2498B9D40057C854 /* QWAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWAccount.m; sourceTree = "<group>"; };
+		40BF3DDC2498B9D40057C854 /* QWToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWToken.m; sourceTree = "<group>"; };
+		40BF3DDE2498B9D40057C854 /* QWTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWTransaction.m; sourceTree = "<group>"; };
+		40BF3DE02498B9D40057C854 /* QWChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWChain.h; sourceTree = "<group>"; };
+		40BF3DE12498B9D40057C854 /* QWWallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWWallet.m; sourceTree = "<group>"; };
+		40BF3DE32498B9D40057C854 /* QWNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWNetwork.m; sourceTree = "<group>"; };
+		40BF3DE42498B9D40057C854 /* QWNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWNetwork.h; sourceTree = "<group>"; };
+		40BF3DE62498B9D40057C854 /* QWONEClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWONEClient.h; sourceTree = "<group>"; };
+		40BF3DE82498B9D40057C854 /* Api.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.pbobjc.h; sourceTree = "<group>"; };
+		40BF3DEA2498B9D40057C854 /* Discover.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Discover.pbobjc.h; sourceTree = "<group>"; };
+		40BF3DEB2498B9D40057C854 /* Contract.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contract.pbobjc.h; sourceTree = "<group>"; };
+		40BF3DEC2498B9D40057C854 /* Tron.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tron.pbobjc.h; sourceTree = "<group>"; };
+		40BF3DED2498B9D40057C854 /* TronInventoryItems.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TronInventoryItems.pbobjc.m; sourceTree = "<group>"; };
+		40BF3DEE2498B9D40057C854 /* Discover.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Discover.pbobjc.m; sourceTree = "<group>"; };
+		40BF3DEF2498B9D40057C854 /* Tron.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tron.pbobjc.m; sourceTree = "<group>"; };
+		40BF3DF02498B9D40057C854 /* Contract.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contract.pbobjc.m; sourceTree = "<group>"; };
+		40BF3DF12498B9D40057C854 /* TronInventoryItems.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TronInventoryItems.pbobjc.h; sourceTree = "<group>"; };
+		40BF3DF22498B9D40057C854 /* Api.pbrpc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Api.pbrpc.m; sourceTree = "<group>"; };
+		40BF3DF52498B9D40057C854 /* Annotations.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotations.pbobjc.h; sourceTree = "<group>"; };
+		40BF3DF62498B9D40057C854 /* HTTP.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTP.pbobjc.h; sourceTree = "<group>"; };
+		40BF3DF72498B9D40057C854 /* HTTP.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTP.pbobjc.m; sourceTree = "<group>"; };
+		40BF3DF82498B9D40057C854 /* Annotations.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotations.pbobjc.m; sourceTree = "<group>"; };
+		40BF3DFA2498B9D40057C854 /* Descriptor.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Descriptor.pbobjc.h; sourceTree = "<group>"; };
+		40BF3DFB2498B9D40057C854 /* Descriptor.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Descriptor.pbobjc.m; sourceTree = "<group>"; };
+		40BF3DFC2498B9D40057C854 /* Api.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Api.pbobjc.m; sourceTree = "<group>"; };
+		40BF3DFD2498B9D40057C854 /* Api.pbrpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.pbrpc.h; sourceTree = "<group>"; };
+		40BF3DFE2498B9D40057C854 /* QWClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWClient.m; sourceTree = "<group>"; };
+		40BF3DFF2498B9D40057C854 /* QWETHClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWETHClient.h; sourceTree = "<group>"; };
+		40BF3E002498B9D40057C854 /* QWQKCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWQKCClient.h; sourceTree = "<group>"; };
+		40BF3E012498B9D40057C854 /* QWBTCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWBTCClient.h; sourceTree = "<group>"; };
+		40BF3E022498B9D40057C854 /* QWTRXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWTRXClient.h; sourceTree = "<group>"; };
+		40BF3E032498B9D40057C854 /* QWONEClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWONEClient.m; sourceTree = "<group>"; };
+		40BF3E042498B9D40057C854 /* QWBTCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWBTCClient.m; sourceTree = "<group>"; };
+		40BF3E052498B9D40057C854 /* QWQKCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWQKCClient.m; sourceTree = "<group>"; };
+		40BF3E062498B9D40057C854 /* QWETHClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWETHClient.m; sourceTree = "<group>"; };
+		40BF3E072498B9D40057C854 /* QWClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWClient.h; sourceTree = "<group>"; };
+		40BF3E082498B9D40057C854 /* QWTRXClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWTRXClient.m; sourceTree = "<group>"; };
+		40BF3E0B2498B9D40057C854 /* QWDataStash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWDataStash.m; sourceTree = "<group>"; };
+		40BF3E0D2498B9D40057C854 /* QWError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWError.m; sourceTree = "<group>"; };
+		40BF3E0E2498B9D40057C854 /* QWDataStash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWDataStash.h; sourceTree = "<group>"; };
+		40BF3E112498B9D40057C854 /* QWError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWError.h; sourceTree = "<group>"; };
+		40BF3E142498B9D40057C854 /* QWKeystoreSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QWKeystoreSwift.swift; sourceTree = "<group>"; };
+		40BF3E152498B9D40057C854 /* QWKeystore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWKeystore.h; sourceTree = "<group>"; };
+		40BF3E172498B9D40057C854 /* BTCTransactionSigner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCTransactionSigner.swift; sourceTree = "<group>"; };
+		40BF3E192498B9D40057C854 /* Hash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		40BF3E1A2498B9D40057C854 /* Scrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scrypt.swift; sourceTree = "<group>"; };
+		40BF3E1B2498B9D40057C854 /* Encryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encryptor.swift; sourceTree = "<group>"; };
+		40BF3E1C2498B9D40057C854 /* Secp256k1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secp256k1.swift; sourceTree = "<group>"; };
+		40BF3E1D2498B9D40057C854 /* AES128.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES128.swift; sourceTree = "<group>"; };
+		40BF3E1E2498B9D40057C854 /* PBKDF2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBKDF2.swift; sourceTree = "<group>"; };
+		40BF3E1F2498B9D40057C854 /* Keccak256.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keccak256.swift; sourceTree = "<group>"; };
+		40BF3E202498B9D40057C854 /* Keystore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keystore.swift; sourceTree = "<group>"; };
+		40BF3E212498B9D40057C854 /* PrivateKeyValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateKeyValidator.swift; sourceTree = "<group>"; };
+		40BF3E222498B9D40057C854 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		40BF3E232498B9D40057C854 /* BTCTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCTransaction.swift; sourceTree = "<group>"; };
+		40BF3E242498B9D40057C854 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		40BF3E262498B9D40057C854 /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = secp256k1.framework; sourceTree = "<group>"; };
+		40BF3E272498B9D40057C854 /* Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
+		40BF3E292498B9D40057C854 /* crypto_scrypt-hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "crypto_scrypt-hash.c"; sourceTree = "<group>"; };
+		40BF3E2A2498B9D40057C854 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		40BF3E2B2498B9D40057C854 /* slowequals.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = slowequals.c; sourceTree = "<group>"; };
+		40BF3E2C2498B9D40057C854 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		40BF3E2D2498B9D40057C854 /* libscrypt.version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libscrypt.version; sourceTree = "<group>"; };
+		40BF3E2E2498B9D40057C854 /* b64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b64.h; sourceTree = "<group>"; };
+		40BF3E2F2498B9D40057C854 /* sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
+		40BF3E302498B9D40057C854 /* crypto-scrypt-saltgen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "crypto-scrypt-saltgen.c"; sourceTree = "<group>"; };
+		40BF3E312498B9D40057C854 /* crypto_scrypt-hexconvert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "crypto_scrypt-hexconvert.c"; sourceTree = "<group>"; };
+		40BF3E322498B9D40057C854 /* crypto-mcf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "crypto-mcf.c"; sourceTree = "<group>"; };
+		40BF3E332498B9D40057C854 /* sysendian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysendian.h; sourceTree = "<group>"; };
+		40BF3E342498B9D40057C854 /* libscrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libscrypt.h; sourceTree = "<group>"; };
+		40BF3E352498B9D40057C854 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		40BF3E362498B9D40057C854 /* crypto_scrypt-check.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "crypto_scrypt-check.c"; sourceTree = "<group>"; };
+		40BF3E372498B9D40057C854 /* slowequals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slowequals.h; sourceTree = "<group>"; };
+		40BF3E382498B9D40057C854 /* b64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = b64.c; sourceTree = "<group>"; };
+		40BF3E392498B9D40057C854 /* sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha256.c; sourceTree = "<group>"; };
+		40BF3E3A2498B9D40057C854 /* crypto_scrypt-nosse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "crypto_scrypt-nosse.c"; sourceTree = "<group>"; };
+		40BF3E3B2498B9D40057C854 /* crypto_scrypt-hexconvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "crypto_scrypt-hexconvert.h"; sourceTree = "<group>"; };
+		40BF3E3C2498B9D40057C854 /* Data+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		40BF3E3D2498B9D40057C854 /* BTCKeystore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCKeystore.swift; sourceTree = "<group>"; };
+		40BF3E3E2498B9D40057C854 /* Wordlists.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Wordlists.bundle; sourceTree = "<group>"; };
+		40BF3E3F2498B9D40057C854 /* Base58String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base58String.swift; sourceTree = "<group>"; };
+		40BF3E402498B9D40057C854 /* QWKeystore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWKeystore.m; sourceTree = "<group>"; };
+		40BF3E422498B9D40057C854 /* RLP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLP.swift; sourceTree = "<group>"; };
+		40BF3E442498B9D40057C854 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		40BF3E452498B9D40057C854 /* EthereumCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EthereumCrypto.h; sourceTree = "<group>"; };
+		40BF3E462498B9D40057C854 /* EthereumCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EthereumCrypto.m; sourceTree = "<group>"; };
+		40BF3E472498B9D40057C854 /* TransactionUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionUtils.swift; sourceTree = "<group>"; };
+		40BF3E492498B9D40057C854 /* SmartContractDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartContractDecoder.swift; sourceTree = "<group>"; };
+		40BF3E4A2498B9D40057C854 /* GreeterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreeterEncoder.swift; sourceTree = "<group>"; };
+		40BF3E4B2498B9D40057C854 /* ABIEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABIEncoder.swift; sourceTree = "<group>"; };
+		40BF3E4C2498B9D40057C854 /* ABIDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABIDecoder.swift; sourceTree = "<group>"; };
+		40BF3E4D2498B9D40057C854 /* ABIValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABIValue.swift; sourceTree = "<group>"; };
+		40BF3E4E2498B9D40057C854 /* ABIType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABIType.swift; sourceTree = "<group>"; };
+		40BF3E4F2498B9D40057C854 /* ABIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABIError.swift; sourceTree = "<group>"; };
+		40BF3E502498B9D40057C854 /* Function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		40BF3E512498B9D40057C854 /* ERC20Encoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ERC20Encoder.swift; sourceTree = "<group>"; };
+		40BF3E532498B9D40057C854 /* QWWalletManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWWalletManager.m; sourceTree = "<group>"; };
+		40BF3E542498B9D40057C854 /* QWWalletManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QWWalletManager+Private.h"; sourceTree = "<group>"; };
+		40BF3E552498B9D40057C854 /* QWWalletManager+Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QWWalletManager+Token.m"; sourceTree = "<group>"; };
+		40BF3E562498B9D40057C854 /* QWWalletManager+Keystore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QWWalletManager+Keystore.h"; sourceTree = "<group>"; };
+		40BF3E582498B9D40057C854 /* QWWalletManager+Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QWWalletManager+Account.h"; sourceTree = "<group>"; };
+		40BF3E592498B9D40057C854 /* QWWalletManager+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QWWalletManager+Private.m"; sourceTree = "<group>"; };
+		40BF3E5A2498B9D40057C854 /* QWWalletManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWWalletManager.h; sourceTree = "<group>"; };
+		40BF3E5C2498B9D40057C854 /* QWWalletManager+Keystore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QWWalletManager+Keystore.m"; sourceTree = "<group>"; };
+		40BF3E5D2498B9D40057C854 /* QWWalletManager+Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QWWalletManager+Token.h"; sourceTree = "<group>"; };
+		40BF3E5E2498B9D40057C854 /* QWWalletManager+Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QWWalletManager+Account.m"; sourceTree = "<group>"; };
+		40BF3E5F2498B9D40057C854 /* QWHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWHeader.h; sourceTree = "<group>"; };
+		40BF3E632498B9D40057C854 /* NSString+QWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QWExtension.m"; sourceTree = "<group>"; };
+		40BF3E652498B9D40057C854 /* NSString+JSONRPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSONRPC.m"; sourceTree = "<group>"; };
+		40BF3E672498B9D40057C854 /* NSString+Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Address.h"; sourceTree = "<group>"; };
+		40BF3E6B2498B9D40057C854 /* JKBigDecimal+QWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JKBigDecimal+QWExtension.m"; sourceTree = "<group>"; };
+		40BF3E6C2498B9D40057C854 /* NSDate+QWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+QWExtension.h"; sourceTree = "<group>"; };
+		40BF3E6E2498B9D40057C854 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		40BF3E6F2498B9D40057C854 /* RLMArray+QWDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMArray+QWDatabase.m"; sourceTree = "<group>"; };
+		40BF3E712498B9D40057C854 /* RLMResults+QWDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMResults+QWDatabase.m"; sourceTree = "<group>"; };
+		40BF3E752498B9D50057C854 /* QWCheckParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWCheckParams.h; sourceTree = "<group>"; };
+		40BF3E7C2498B9D50057C854 /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
+		40BF3E7D2498B9D50057C854 /* NSData+QWHexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+QWHexString.h"; sourceTree = "<group>"; };
+		40BF3E7E2498B9D50057C854 /* NSString+balance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+balance.h"; sourceTree = "<group>"; };
+		40BF3E862498B9D50057C854 /* NSString+QWHexBinaryConverting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QWHexBinaryConverting.h"; sourceTree = "<group>"; };
+		40BF3E882498B9D50057C854 /* NSString+JSONRPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSONRPC.h"; sourceTree = "<group>"; };
+		40BF3E8A2498B9D50057C854 /* NSString+QWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QWExtension.h"; sourceTree = "<group>"; };
+		40BF3E8E2498B9D50057C854 /* RLMResults+QWDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMResults+QWDatabase.h"; sourceTree = "<group>"; };
+		40BF3E8F2498B9D50057C854 /* RLMArray+QWDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMArray+QWDatabase.h"; sourceTree = "<group>"; };
+		40BF3E902498B9D50057C854 /* NSDate+QWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+QWExtension.m"; sourceTree = "<group>"; };
+		40BF3E922498B9D50057C854 /* JKBigDecimal+QWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JKBigDecimal+QWExtension.h"; sourceTree = "<group>"; };
+		40BF3E962498B9D50057C854 /* NSString+Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Address.m"; sourceTree = "<group>"; };
+		40BF3E9C2498B9D50057C854 /* QWCheckParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWCheckParams.m; sourceTree = "<group>"; };
+		40BF3EA12498B9D50057C854 /* NSString+QWHexBinaryConverting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QWHexBinaryConverting.m"; sourceTree = "<group>"; };
+		40BF3EA82498B9D50057C854 /* NSString+balance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+balance.m"; sourceTree = "<group>"; };
+		40BF3EA92498B9D50057C854 /* NSData+QWHexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+QWHexString.m"; sourceTree = "<group>"; };
+		40BF3EAA2498B9D50057C854 /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		40BF3F5A2498B9E70057C854 /* CoreBitcoin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreBitcoin.framework; sourceTree = "<group>"; };
+		40BF3F5C2498BAAD0057C854 /* PocketCore-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PocketCore-Bridging-Header.h"; sourceTree = "<group>"; };
+		53A243D6B1357E5B3D906004 /* Pods-PocketCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketCore.release.xcconfig"; path = "Target Support Files/Pods-PocketCore/Pods-PocketCore.release.xcconfig"; sourceTree = "<group>"; };
+		5688FE9AC9537A73FD35EEB8 /* Pods_PocketCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A93BFADD14910FEE697716 /* Pods_PocketCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B09284D22DE337FBD1D5464 /* Pods-PocketCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketCoreTests.debug.xcconfig"; path = "Target Support Files/Pods-PocketCoreTests/Pods-PocketCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9924EE64C99ED817EC3E8A7 /* Pods-PocketCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketCoreTests.release.xcconfig"; path = "Target Support Files/Pods-PocketCoreTests/Pods-PocketCoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB6F64A406ACB45FAB0B66FA /* Pods-PocketCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketCore.debug.xcconfig"; path = "Target Support Files/Pods-PocketCore/Pods-PocketCore.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40BF3D1A2498B9820057C854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BF3F5B2498B9E70057C854 /* CoreBitcoin.framework in Frameworks */,
+				40BF3F0C2498B9D50057C854 /* secp256k1.framework in Frameworks */,
+				A68156C5B69DDA86FFD9DD88 /* Pods_PocketCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BF3D352498B9840057C854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC7D3A072A5C8860C55922D /* Pods_PocketCoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40BF3D142498B9820057C854 = {
+			isa = PBXGroup;
+			children = (
+				40BF3D1F2498B9820057C854 /* PocketCore */,
+				40BF3D3B2498B9840057C854 /* PocketCoreTests */,
+				40BF3D1E2498B9820057C854 /* Products */,
+				B8A16D2C595E50A7D4AD87EE /* Pods */,
+				BE13DFF6F4DEC3F283FA1AB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40BF3D1E2498B9820057C854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3D1D2498B9820057C854 /* PocketCore.app */,
+				40BF3D382498B9840057C854 /* PocketCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40BF3D1F2498B9820057C854 /* PocketCore */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3DC42498B9D40057C854 /* Objects */,
+				40BF3D472498B9D30057C854 /* External */,
+				40BF3D202498B9820057C854 /* AppDelegate.h */,
+				40BF3D212498B9820057C854 /* AppDelegate.m */,
+				40BF3D232498B9820057C854 /* SceneDelegate.h */,
+				40BF3D242498B9820057C854 /* SceneDelegate.m */,
+				40BF3D262498B9820057C854 /* ViewController.h */,
+				40BF3D272498B9820057C854 /* ViewController.m */,
+				40BF3D292498B9820057C854 /* Main.storyboard */,
+				40BF3D2C2498B9840057C854 /* Assets.xcassets */,
+				40BF3D2E2498B9840057C854 /* LaunchScreen.storyboard */,
+				40BF3D312498B9840057C854 /* Info.plist */,
+				40BF3D322498B9840057C854 /* main.m */,
+				40BF3F5C2498BAAD0057C854 /* PocketCore-Bridging-Header.h */,
+			);
+			path = PocketCore;
+			sourceTree = "<group>";
+		};
+		40BF3D3B2498B9840057C854 /* PocketCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3D3C2498B9840057C854 /* PocketCoreTests.m */,
+				40BF3D3E2498B9840057C854 /* Info.plist */,
+			);
+			path = PocketCoreTests;
+			sourceTree = "<group>";
+		};
+		40BF3D472498B9D30057C854 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3F592498B9E70057C854 /* CoreBitcoin */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		40BF3DC42498B9D40057C854 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3DC52498B9D40057C854 /* Database */,
+				40BF3DE22498B9D40057C854 /* Network */,
+				40BF3E092498B9D40057C854 /* Business */,
+				40BF3E122498B9D40057C854 /* Wallet */,
+				40BF3E602498B9D40057C854 /* Categories */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		40BF3DC52498B9D40057C854 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3DC72498B9D40057C854 /* QWDatabase.h */,
+				40BF3DC92498B9D40057C854 /* QWShard.m */,
+				40BF3DCA2498B9D40057C854 /* QWBalance.h */,
+				40BF3DCB2498B9D40057C854 /* QWTransaction.h */,
+				40BF3DCD2498B9D40057C854 /* QWToken.h */,
+				40BF3DCE2498B9D40057C854 /* QWAccount.h */,
+				40BF3DD02498B9D40057C854 /* QWDatabaseObject.m */,
+				40BF3DD12498B9D40057C854 /* QWWallet.h */,
+				40BF3DD22498B9D40057C854 /* QWChain.m */,
+				40BF3DD42498B9D40057C854 /* QWBalance.m */,
+				40BF3DD52498B9D40057C854 /* QWShard.h */,
+				40BF3DD72498B9D40057C854 /* QWDatabase.m */,
+				40BF3DD92498B9D40057C854 /* QWDatabaseObject.h */,
+				40BF3DDB2498B9D40057C854 /* QWAccount.m */,
+				40BF3DDC2498B9D40057C854 /* QWToken.m */,
+				40BF3DDE2498B9D40057C854 /* QWTransaction.m */,
+				40BF3DE02498B9D40057C854 /* QWChain.h */,
+				40BF3DE12498B9D40057C854 /* QWWallet.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		40BF3DE22498B9D40057C854 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3DE42498B9D40057C854 /* QWNetwork.h */,
+				40BF3DE32498B9D40057C854 /* QWNetwork.m */,
+				40BF3DE52498B9D40057C854 /* Client */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		40BF3DE52498B9D40057C854 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3DE62498B9D40057C854 /* QWONEClient.h */,
+				40BF3DFE2498B9D40057C854 /* QWClient.m */,
+				40BF3DFF2498B9D40057C854 /* QWETHClient.h */,
+				40BF3E002498B9D40057C854 /* QWQKCClient.h */,
+				40BF3E012498B9D40057C854 /* QWBTCClient.h */,
+				40BF3E022498B9D40057C854 /* QWTRXClient.h */,
+				40BF3E032498B9D40057C854 /* QWONEClient.m */,
+				40BF3E042498B9D40057C854 /* QWBTCClient.m */,
+				40BF3E052498B9D40057C854 /* QWQKCClient.m */,
+				40BF3E062498B9D40057C854 /* QWETHClient.m */,
+				40BF3E072498B9D40057C854 /* QWClient.h */,
+				40BF3E082498B9D40057C854 /* QWTRXClient.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		40BF3DE72498B9D40057C854 /* Tron gRPC */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3DE82498B9D40057C854 /* Api.pbobjc.h */,
+				40BF3DE92498B9D40057C854 /* core */,
+				40BF3DF22498B9D40057C854 /* Api.pbrpc.m */,
+				40BF3DF32498B9D40057C854 /* google */,
+				40BF3DFC2498B9D40057C854 /* Api.pbobjc.m */,
+				40BF3DFD2498B9D40057C854 /* Api.pbrpc.h */,
+			);
+			path = "Tron gRPC";
+			sourceTree = "<group>";
+		};
+		40BF3DE92498B9D40057C854 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3DEA2498B9D40057C854 /* Discover.pbobjc.h */,
+				40BF3DEB2498B9D40057C854 /* Contract.pbobjc.h */,
+				40BF3DEC2498B9D40057C854 /* Tron.pbobjc.h */,
+				40BF3DED2498B9D40057C854 /* TronInventoryItems.pbobjc.m */,
+				40BF3DEE2498B9D40057C854 /* Discover.pbobjc.m */,
+				40BF3DEF2498B9D40057C854 /* Tron.pbobjc.m */,
+				40BF3DF02498B9D40057C854 /* Contract.pbobjc.m */,
+				40BF3DF12498B9D40057C854 /* TronInventoryItems.pbobjc.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		40BF3DF32498B9D40057C854 /* google */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3DF42498B9D40057C854 /* api */,
+				40BF3DF92498B9D40057C854 /* protobuf */,
+			);
+			path = google;
+			sourceTree = "<group>";
+		};
+		40BF3DF42498B9D40057C854 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3DF52498B9D40057C854 /* Annotations.pbobjc.h */,
+				40BF3DF62498B9D40057C854 /* HTTP.pbobjc.h */,
+				40BF3DF72498B9D40057C854 /* HTTP.pbobjc.m */,
+				40BF3DF82498B9D40057C854 /* Annotations.pbobjc.m */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		40BF3DF92498B9D40057C854 /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3DFA2498B9D40057C854 /* Descriptor.pbobjc.h */,
+				40BF3DFB2498B9D40057C854 /* Descriptor.pbobjc.m */,
+			);
+			path = protobuf;
+			sourceTree = "<group>";
+		};
+		40BF3E092498B9D40057C854 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3E0E2498B9D40057C854 /* QWDataStash.h */,
+				40BF3E0B2498B9D40057C854 /* QWDataStash.m */,
+				40BF3E112498B9D40057C854 /* QWError.h */,
+				40BF3E0D2498B9D40057C854 /* QWError.m */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		40BF3E122498B9D40057C854 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3E132498B9D40057C854 /* Keystore */,
+				40BF3E412498B9D40057C854 /* RLP */,
+				40BF3E432498B9D40057C854 /* TransactionUtils */,
+				40BF3E482498B9D40057C854 /* SmartContract */,
+				40BF3E522498B9D40057C854 /* WalletManager */,
+				40BF3E5F2498B9D40057C854 /* QWHeader.h */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		40BF3E132498B9D40057C854 /* Keystore */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3DE72498B9D40057C854 /* Tron gRPC */,
+				40BF3E142498B9D40057C854 /* QWKeystoreSwift.swift */,
+				40BF3E152498B9D40057C854 /* QWKeystore.h */,
+				40BF3E162498B9D40057C854 /* TokenCore-imToken */,
+				40BF3E3E2498B9D40057C854 /* Wordlists.bundle */,
+				40BF3E3F2498B9D40057C854 /* Base58String.swift */,
+				40BF3E402498B9D40057C854 /* QWKeystore.m */,
+			);
+			path = Keystore;
+			sourceTree = "<group>";
+		};
+		40BF3E162498B9D40057C854 /* TokenCore-imToken */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3E172498B9D40057C854 /* BTCTransactionSigner.swift */,
+				40BF3E182498B9D40057C854 /* Encryptor */,
+				40BF3E202498B9D40057C854 /* Keystore.swift */,
+				40BF3E212498B9D40057C854 /* PrivateKeyValidator.swift */,
+				40BF3E222498B9D40057C854 /* Crypto.swift */,
+				40BF3E232498B9D40057C854 /* BTCTransaction.swift */,
+				40BF3E242498B9D40057C854 /* String+Extension.swift */,
+				40BF3E252498B9D40057C854 /* secp256k1 */,
+				40BF3E272498B9D40057C854 /* Hex.swift */,
+				40BF3E282498B9D40057C854 /* libscrypt */,
+				40BF3E3C2498B9D40057C854 /* Data+Extension.swift */,
+				40BF3E3D2498B9D40057C854 /* BTCKeystore.swift */,
+			);
+			path = "TokenCore-imToken";
+			sourceTree = "<group>";
+		};
+		40BF3E182498B9D40057C854 /* Encryptor */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3E192498B9D40057C854 /* Hash.swift */,
+				40BF3E1A2498B9D40057C854 /* Scrypt.swift */,
+				40BF3E1B2498B9D40057C854 /* Encryptor.swift */,
+				40BF3E1C2498B9D40057C854 /* Secp256k1.swift */,
+				40BF3E1D2498B9D40057C854 /* AES128.swift */,
+				40BF3E1E2498B9D40057C854 /* PBKDF2.swift */,
+				40BF3E1F2498B9D40057C854 /* Keccak256.swift */,
+			);
+			path = Encryptor;
+			sourceTree = "<group>";
+		};
+		40BF3E252498B9D40057C854 /* secp256k1 */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3E262498B9D40057C854 /* secp256k1.framework */,
+			);
+			path = secp256k1;
+			sourceTree = "<group>";
+		};
+		40BF3E282498B9D40057C854 /* libscrypt */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3E292498B9D40057C854 /* crypto_scrypt-hash.c */,
+				40BF3E2A2498B9D40057C854 /* LICENSE */,
+				40BF3E2B2498B9D40057C854 /* slowequals.c */,
+				40BF3E2C2498B9D40057C854 /* Makefile */,
+				40BF3E2D2498B9D40057C854 /* libscrypt.version */,
+				40BF3E2E2498B9D40057C854 /* b64.h */,
+				40BF3E2F2498B9D40057C854 /* sha256.h */,
+				40BF3E302498B9D40057C854 /* crypto-scrypt-saltgen.c */,
+				40BF3E312498B9D40057C854 /* crypto_scrypt-hexconvert.c */,
+				40BF3E322498B9D40057C854 /* crypto-mcf.c */,
+				40BF3E332498B9D40057C854 /* sysendian.h */,
+				40BF3E342498B9D40057C854 /* libscrypt.h */,
+				40BF3E352498B9D40057C854 /* README.md */,
+				40BF3E362498B9D40057C854 /* crypto_scrypt-check.c */,
+				40BF3E372498B9D40057C854 /* slowequals.h */,
+				40BF3E382498B9D40057C854 /* b64.c */,
+				40BF3E392498B9D40057C854 /* sha256.c */,
+				40BF3E3A2498B9D40057C854 /* crypto_scrypt-nosse.c */,
+				40BF3E3B2498B9D40057C854 /* crypto_scrypt-hexconvert.h */,
+			);
+			path = libscrypt;
+			sourceTree = "<group>";
+		};
+		40BF3E412498B9D40057C854 /* RLP */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3E422498B9D40057C854 /* RLP.swift */,
+			);
+			path = RLP;
+			sourceTree = "<group>";
+		};
+		40BF3E432498B9D40057C854 /* TransactionUtils */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3E442498B9D40057C854 /* Address.swift */,
+				40BF3E452498B9D40057C854 /* EthereumCrypto.h */,
+				40BF3E462498B9D40057C854 /* EthereumCrypto.m */,
+				40BF3E472498B9D40057C854 /* TransactionUtils.swift */,
+			);
+			path = TransactionUtils;
+			sourceTree = "<group>";
+		};
+		40BF3E482498B9D40057C854 /* SmartContract */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3E492498B9D40057C854 /* SmartContractDecoder.swift */,
+				40BF3E4A2498B9D40057C854 /* GreeterEncoder.swift */,
+				40BF3E4B2498B9D40057C854 /* ABIEncoder.swift */,
+				40BF3E4C2498B9D40057C854 /* ABIDecoder.swift */,
+				40BF3E4D2498B9D40057C854 /* ABIValue.swift */,
+				40BF3E4E2498B9D40057C854 /* ABIType.swift */,
+				40BF3E4F2498B9D40057C854 /* ABIError.swift */,
+				40BF3E502498B9D40057C854 /* Function.swift */,
+				40BF3E512498B9D40057C854 /* ERC20Encoder.swift */,
+			);
+			path = SmartContract;
+			sourceTree = "<group>";
+		};
+		40BF3E522498B9D40057C854 /* WalletManager */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3E5A2498B9D40057C854 /* QWWalletManager.h */,
+				40BF3E532498B9D40057C854 /* QWWalletManager.m */,
+				40BF3E542498B9D40057C854 /* QWWalletManager+Private.h */,
+				40BF3E592498B9D40057C854 /* QWWalletManager+Private.m */,
+				40BF3E5D2498B9D40057C854 /* QWWalletManager+Token.h */,
+				40BF3E552498B9D40057C854 /* QWWalletManager+Token.m */,
+				40BF3E562498B9D40057C854 /* QWWalletManager+Keystore.h */,
+				40BF3E5C2498B9D40057C854 /* QWWalletManager+Keystore.m */,
+				40BF3E582498B9D40057C854 /* QWWalletManager+Account.h */,
+				40BF3E5E2498B9D40057C854 /* QWWalletManager+Account.m */,
+			);
+			path = WalletManager;
+			sourceTree = "<group>";
+		};
+		40BF3E602498B9D40057C854 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3E632498B9D40057C854 /* NSString+QWExtension.m */,
+				40BF3E652498B9D40057C854 /* NSString+JSONRPC.m */,
+				40BF3E672498B9D40057C854 /* NSString+Address.h */,
+				40BF3E6B2498B9D40057C854 /* JKBigDecimal+QWExtension.m */,
+				40BF3E6C2498B9D40057C854 /* NSDate+QWExtension.h */,
+				40BF3E6E2498B9D40057C854 /* Data.swift */,
+				40BF3E6F2498B9D40057C854 /* RLMArray+QWDatabase.m */,
+				40BF3E712498B9D40057C854 /* RLMResults+QWDatabase.m */,
+				40BF3E752498B9D50057C854 /* QWCheckParams.h */,
+				40BF3E7C2498B9D50057C854 /* NSData+Encryption.m */,
+				40BF3E7D2498B9D50057C854 /* NSData+QWHexString.h */,
+				40BF3E7E2498B9D50057C854 /* NSString+balance.h */,
+				40BF3E862498B9D50057C854 /* NSString+QWHexBinaryConverting.h */,
+				40BF3E882498B9D50057C854 /* NSString+JSONRPC.h */,
+				40BF3E8A2498B9D50057C854 /* NSString+QWExtension.h */,
+				40BF3E8E2498B9D50057C854 /* RLMResults+QWDatabase.h */,
+				40BF3E8F2498B9D50057C854 /* RLMArray+QWDatabase.h */,
+				40BF3E902498B9D50057C854 /* NSDate+QWExtension.m */,
+				40BF3E922498B9D50057C854 /* JKBigDecimal+QWExtension.h */,
+				40BF3E962498B9D50057C854 /* NSString+Address.m */,
+				40BF3E9C2498B9D50057C854 /* QWCheckParams.m */,
+				40BF3EA12498B9D50057C854 /* NSString+QWHexBinaryConverting.m */,
+				40BF3EA82498B9D50057C854 /* NSString+balance.m */,
+				40BF3EA92498B9D50057C854 /* NSData+QWHexString.m */,
+				40BF3EAA2498B9D50057C854 /* NSData+Encryption.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		40BF3F592498B9E70057C854 /* CoreBitcoin */ = {
+			isa = PBXGroup;
+			children = (
+				40BF3F5A2498B9E70057C854 /* CoreBitcoin.framework */,
+			);
+			path = CoreBitcoin;
+			sourceTree = "<group>";
+		};
+		B8A16D2C595E50A7D4AD87EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F64A406ACB45FAB0B66FA /* Pods-PocketCore.debug.xcconfig */,
+				53A243D6B1357E5B3D906004 /* Pods-PocketCore.release.xcconfig */,
+				7B09284D22DE337FBD1D5464 /* Pods-PocketCoreTests.debug.xcconfig */,
+				A9924EE64C99ED817EC3E8A7 /* Pods-PocketCoreTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE13DFF6F4DEC3F283FA1AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5688FE9AC9537A73FD35EEB8 /* Pods_PocketCore.framework */,
+				64A93BFADD14910FEE697716 /* Pods_PocketCoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40BF3D1C2498B9820057C854 /* PocketCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BF3D412498B9840057C854 /* Build configuration list for PBXNativeTarget "PocketCore" */;
+			buildPhases = (
+				E6D39281A4F67ECF4768D6A2 /* [CP] Check Pods Manifest.lock */,
+				40BF3D192498B9820057C854 /* Sources */,
+				40BF3D1A2498B9820057C854 /* Frameworks */,
+				40BF3D1B2498B9820057C854 /* Resources */,
+				ECEB592B21C4E02C17382023 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketCore;
+			productName = PocketCore;
+			productReference = 40BF3D1D2498B9820057C854 /* PocketCore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40BF3D372498B9840057C854 /* PocketCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BF3D442498B9840057C854 /* Build configuration list for PBXNativeTarget "PocketCoreTests" */;
+			buildPhases = (
+				DDF5C44E46A0276F602660CC /* [CP] Check Pods Manifest.lock */,
+				40BF3D342498B9840057C854 /* Sources */,
+				40BF3D352498B9840057C854 /* Frameworks */,
+				40BF3D362498B9840057C854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BF3D3A2498B9840057C854 /* PBXTargetDependency */,
+			);
+			name = PocketCoreTests;
+			productName = PocketCoreTests;
+			productReference = 40BF3D382498B9840057C854 /* PocketCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40BF3D152498B9820057C854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = QuarkChain;
+				TargetAttributes = {
+					40BF3D1C2498B9820057C854 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					40BF3D372498B9840057C854 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 40BF3D1C2498B9820057C854;
+					};
+				};
+			};
+			buildConfigurationList = 40BF3D182498B9820057C854 /* Build configuration list for PBXProject "PocketCore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40BF3D142498B9820057C854;
+			productRefGroup = 40BF3D1E2498B9820057C854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40BF3D1C2498B9820057C854 /* PocketCore */,
+				40BF3D372498B9840057C854 /* PocketCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40BF3D1B2498B9820057C854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BF3F0F2498B9D50057C854 /* LICENSE in Resources */,
+				40BF3D302498B9840057C854 /* LaunchScreen.storyboard in Resources */,
+				40BF3D2D2498B9840057C854 /* Assets.xcassets in Resources */,
+				40BF3F1D2498B9D50057C854 /* Wordlists.bundle in Resources */,
+				40BF3F122498B9D50057C854 /* libscrypt.version in Resources */,
+				40BF3F162498B9D50057C854 /* README.md in Resources */,
+				40BF3D2B2498B9820057C854 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BF3D362498B9840057C854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDF5C44E46A0276F602660CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketCoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6D39281A4F67ECF4768D6A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECEB592B21C4E02C17382023 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketCore/Pods-PocketCore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketCore/Pods-PocketCore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketCore/Pods-PocketCore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40BF3D192498B9820057C854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BF3F312498B9D50057C854 /* QWWalletManager+Keystore.m in Sources */,
+				40BF3F0B2498B9D50057C854 /* String+Extension.swift in Sources */,
+				40BF3F032498B9D50057C854 /* Secp256k1.swift in Sources */,
+				40BF3F0D2498B9D50057C854 /* Hex.swift in Sources */,
+				40BF3F192498B9D50057C854 /* sha256.c in Sources */,
+				40BF3F242498B9D50057C854 /* SmartContractDecoder.swift in Sources */,
+				40BF3F2E2498B9D50057C854 /* QWWalletManager+Token.m in Sources */,
+				40BF3EEC2498B9D50057C854 /* Discover.pbobjc.m in Sources */,
+				40BF3EF92498B9D50057C854 /* QWTRXClient.m in Sources */,
+				40BF3F382498B9D50057C854 /* JKBigDecimal+QWExtension.m in Sources */,
+				40BF3EE12498B9D50057C854 /* QWChain.m in Sources */,
+				40BF3F002498B9D50057C854 /* Hash.swift in Sources */,
+				40BF3F092498B9D50057C854 /* Crypto.swift in Sources */,
+				40BF3F2C2498B9D50057C854 /* ERC20Encoder.swift in Sources */,
+				40BF3F102498B9D50057C854 /* slowequals.c in Sources */,
+				40BF3EE92498B9D50057C854 /* QWWallet.m in Sources */,
+				40BF3EEF2498B9D50057C854 /* Api.pbrpc.m in Sources */,
+				40BF3EE02498B9D50057C854 /* QWDatabaseObject.m in Sources */,
+				40BF3F2D2498B9D50057C854 /* QWWalletManager.m in Sources */,
+				40BF3EF12498B9D50057C854 /* Annotations.pbobjc.m in Sources */,
+				40BF3F302498B9D50057C854 /* QWWalletManager+Private.m in Sources */,
+				40BF3EF72498B9D50057C854 /* QWQKCClient.m in Sources */,
+				40BF3EF52498B9D50057C854 /* QWONEClient.m in Sources */,
+				40BF3F1E2498B9D50057C854 /* Base58String.swift in Sources */,
+				40BF3F232498B9D50057C854 /* TransactionUtils.swift in Sources */,
+				40BF3D282498B9820057C854 /* ViewController.m in Sources */,
+				40BF3F1F2498B9D50057C854 /* QWKeystore.m in Sources */,
+				40BF3EFE2498B9D50057C854 /* QWKeystoreSwift.swift in Sources */,
+				40BF3F3A2498B9D50057C854 /* Data.swift in Sources */,
+				40BF3F202498B9D50057C854 /* RLP.swift in Sources */,
+				40BF3F272498B9D50057C854 /* ABIDecoder.swift in Sources */,
+				40BF3F3B2498B9D50057C854 /* RLMArray+QWDatabase.m in Sources */,
+				40BF3EE42498B9D50057C854 /* QWDatabase.m in Sources */,
+				40BF3F112498B9D50057C854 /* Makefile in Sources */,
+				40BF3F172498B9D50057C854 /* crypto_scrypt-check.c in Sources */,
+				40BF3F3C2498B9D50057C854 /* RLMResults+QWDatabase.m in Sources */,
+				40BF3EFA2498B9D50057C854 /* QWDataStash.m in Sources */,
+				40BF3F222498B9D50057C854 /* EthereumCrypto.m in Sources */,
+				40BF3F1B2498B9D50057C854 /* Data+Extension.swift in Sources */,
+				40BF3EF02498B9D50057C854 /* HTTP.pbobjc.m in Sources */,
+				40BF3F052498B9D50057C854 /* PBKDF2.swift in Sources */,
+				40BF3D222498B9820057C854 /* AppDelegate.m in Sources */,
+				40BF3EE72498B9D50057C854 /* QWToken.m in Sources */,
+				40BF3F062498B9D50057C854 /* Keccak256.swift in Sources */,
+				40BF3EFC2498B9D50057C854 /* QWError.m in Sources */,
+				40BF3F042498B9D50057C854 /* AES128.swift in Sources */,
+				40BF3F012498B9D50057C854 /* Scrypt.swift in Sources */,
+				40BF3F152498B9D50057C854 /* crypto-mcf.c in Sources */,
+				40BF3F322498B9D50057C854 /* QWWalletManager+Account.m in Sources */,
+				40BF3EEA2498B9D50057C854 /* QWNetwork.m in Sources */,
+				40BF3F212498B9D50057C854 /* Address.swift in Sources */,
+				40BF3EDE2498B9D50057C854 /* QWShard.m in Sources */,
+				40BF3EFF2498B9D50057C854 /* BTCTransactionSigner.swift in Sources */,
+				40BF3D332498B9840057C854 /* main.m in Sources */,
+				40BF3F082498B9D50057C854 /* PrivateKeyValidator.swift in Sources */,
+				40BF3EEB2498B9D50057C854 /* TronInventoryItems.pbobjc.m in Sources */,
+				40BF3EE62498B9D50057C854 /* QWAccount.m in Sources */,
+				40BF3F1C2498B9D50057C854 /* BTCKeystore.swift in Sources */,
+				40BF3EE82498B9D50057C854 /* QWTransaction.m in Sources */,
+				40BF3F252498B9D50057C854 /* GreeterEncoder.swift in Sources */,
+				40BF3F2A2498B9D50057C854 /* ABIError.swift in Sources */,
+				40BF3F132498B9D50057C854 /* crypto-scrypt-saltgen.c in Sources */,
+				40BF3F532498B9D50057C854 /* NSString+QWHexBinaryConverting.m in Sources */,
+				40BF3F572498B9D50057C854 /* NSString+balance.m in Sources */,
+				40BF3D252498B9820057C854 /* SceneDelegate.m in Sources */,
+				40BF3EED2498B9D50057C854 /* Tron.pbobjc.m in Sources */,
+				40BF3F0A2498B9D50057C854 /* BTCTransaction.swift in Sources */,
+				40BF3F182498B9D50057C854 /* b64.c in Sources */,
+				40BF3F4C2498B9D50057C854 /* NSString+Address.m in Sources */,
+				40BF3F482498B9D50057C854 /* NSDate+QWExtension.m in Sources */,
+				40BF3F502498B9D50057C854 /* QWCheckParams.m in Sources */,
+				40BF3EE32498B9D50057C854 /* QWBalance.m in Sources */,
+				40BF3EF62498B9D50057C854 /* QWBTCClient.m in Sources */,
+				40BF3F072498B9D50057C854 /* Keystore.swift in Sources */,
+				40BF3F262498B9D50057C854 /* ABIEncoder.swift in Sources */,
+				40BF3EF82498B9D50057C854 /* QWETHClient.m in Sources */,
+				40BF3F0E2498B9D50057C854 /* crypto_scrypt-hash.c in Sources */,
+				40BF3F282498B9D50057C854 /* ABIValue.swift in Sources */,
+				40BF3F1A2498B9D50057C854 /* crypto_scrypt-nosse.c in Sources */,
+				40BF3EEE2498B9D50057C854 /* Contract.pbobjc.m in Sources */,
+				40BF3F412498B9D50057C854 /* NSData+Encryption.m in Sources */,
+				40BF3F2B2498B9D50057C854 /* Function.swift in Sources */,
+				40BF3F292498B9D50057C854 /* ABIType.swift in Sources */,
+				40BF3EF22498B9D50057C854 /* Descriptor.pbobjc.m in Sources */,
+				40BF3F582498B9D50057C854 /* NSData+QWHexString.m in Sources */,
+				40BF3F142498B9D50057C854 /* crypto_scrypt-hexconvert.c in Sources */,
+				40BF3F352498B9D50057C854 /* NSString+QWExtension.m in Sources */,
+				40BF3F372498B9D50057C854 /* NSString+JSONRPC.m in Sources */,
+				40BF3EF42498B9D50057C854 /* QWClient.m in Sources */,
+				40BF3F022498B9D50057C854 /* Encryptor.swift in Sources */,
+				40BF3EF32498B9D50057C854 /* Api.pbobjc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BF3D342498B9840057C854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BF3D3D2498B9840057C854 /* PocketCoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40BF3D3A2498B9840057C854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BF3D1C2498B9820057C854 /* PocketCore */;
+			targetProxy = 40BF3D392498B9840057C854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40BF3D292498B9820057C854 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BF3D2A2498B9820057C854 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40BF3D2E2498B9840057C854 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BF3D2F2498B9840057C854 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40BF3D3F2498B9840057C854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40BF3D402498B9840057C854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BF3D422498B9840057C854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6F64A406ACB45FAB0B66FA /* Pods-PocketCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J68DS5VX5D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PocketCore/External/UMeng/common/common_ios_2.1.1/normal",
+					"$(PROJECT_DIR)/PocketCore/External/UMeng/analytics/analytics_ios_6.0.5",
+					"$(PROJECT_DIR)/PocketCore/Objects/Wallet/Keystore/TokenCore-imToken/secp256k1",
+					"$(PROJECT_DIR)/PocketCore/External/CoreBitcoin",
+				);
+				INFOPLIST_FILE = PocketCore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PocketCore/External/WeChatSDK1.8.3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarkchain.PocketCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PocketCore/PocketCore-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		40BF3D432498B9840057C854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A243D6B1357E5B3D906004 /* Pods-PocketCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J68DS5VX5D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PocketCore/External/UMeng/common/common_ios_2.1.1/normal",
+					"$(PROJECT_DIR)/PocketCore/External/UMeng/analytics/analytics_ios_6.0.5",
+					"$(PROJECT_DIR)/PocketCore/Objects/Wallet/Keystore/TokenCore-imToken/secp256k1",
+					"$(PROJECT_DIR)/PocketCore/External/CoreBitcoin",
+				);
+				INFOPLIST_FILE = PocketCore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PocketCore/External/WeChatSDK1.8.3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarkchain.PocketCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PocketCore/PocketCore-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		40BF3D452498B9840057C854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B09284D22DE337FBD1D5464 /* Pods-PocketCoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J68DS5VX5D;
+				INFOPLIST_FILE = PocketCoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarkchain.PocketCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketCore.app/PocketCore";
+			};
+			name = Debug;
+		};
+		40BF3D462498B9840057C854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9924EE64C99ED817EC3E8A7 /* Pods-PocketCoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J68DS5VX5D;
+				INFOPLIST_FILE = PocketCoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarkchain.PocketCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketCore.app/PocketCore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40BF3D182498B9820057C854 /* Build configuration list for PBXProject "PocketCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BF3D3F2498B9840057C854 /* Debug */,
+				40BF3D402498B9840057C854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BF3D412498B9840057C854 /* Build configuration list for PBXNativeTarget "PocketCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BF3D422498B9840057C854 /* Debug */,
+				40BF3D432498B9840057C854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BF3D442498B9840057C854 /* Build configuration list for PBXNativeTarget "PocketCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BF3D452498B9840057C854 /* Debug */,
+				40BF3D462498B9840057C854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40BF3D152498B9820057C854 /* Project object */;
+}
